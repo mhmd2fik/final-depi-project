@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="boot.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>MH COMPANY</title>
+  <link rel="shortcut icon" type="image/x-icon" href="meta_PNG5.png" />
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
+    <style>
+      .form-container {
+        max-width: 500px;
+        margin: auto;
+        margin-top: 50px;
+        padding: 20px;
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.223);
+        background-image:url('D:/mohamed tawfik/depi project/assets/imgs/bg4.jpg') ; 
+        background-repeat: no-repeat; 
+        background-size: 100% 100%; 
+        border: 0px solid #323330;
+        border-radius: 25px;
+      }
+      .form-control::placeholder {color: #000000;} 
+      
+    </style>
+</head>
+
+<body style="position: relative;">
+  <a href="#" class="btn d-none" id="elzorar"
+    style=" z-index: 100; width: 25px; height: 25px; background-color: cornflowerblue; border-radius: 100px; position:fixed;  bottom: 15px; right: 15px; --bs-btn-padding-x: 0rem; --bs-btn-padding-y: 0rem;">
+    <i class="fa-solid fa-arrow-up" style="color: #ffffff;"></i></a>
+  <div class="col-12 row m-0 justify-content-center"
+    style=" padding-left: 30px;  padding-right: 30px; top: 0; padding-top: 10px; box-sizing: border-box; background-color:  cornflowerblue; ">
+    
+    <div class="col-lg-10 col-md-10 col-sm-10"
+      style="display: flex; flex-direction: row; justify-content: space-between; flex-wrap: wrap;">
+      <p style="font-family: Arial, Helvetica, sans-serif; font-size:medium; color: #fffbfb; border-left: 1px solid #ffffff; border-right: 1px solid #ffffff; padding-right: 10px; padding-left: 10px;"  > <span><i class="fa-solid fa-clock" style="color: #ffffff;"></i></span> sun-thr 09:00-17:00 </p>
+      <p style="font-family: Arial, Helvetica, sans-serif; font-size:medium; color: #fffbfb; border-left: 1px solid #ffffff; border-right: 1px solid #ffffff; padding-right: 10px; padding-left: 10px;"  ><span><i class="fa-solid fa-phone" style="color: #ffffff;"></i></span> 01099999999 </p>
+      <p style="font-family: Arial, Helvetica, sans-serif; font-size:medium; color: #fffbfb; border-left: 1px solid #ffffff; border-right: 1px solid #ffffff; padding-right: 10px; padding-left: 10px;"  ><span><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i></span> 15street st,region,Governorate</p>
+    </div>
+  </div>
+  <div class="container1" style=" padding-top: 10px; box-sizing: border-box;">
+    <div class="blackn">
+      <H3 style="font-family: Arial, Helvetica, sans-serif;">MH<SPan style="color: cornflowerblue;">COMPANY</SPan></H3>
+    </div>
+    <div class="div2 col-lg-5 col-md-8 col-sm-8 ">
+      <a href="indx.html" onMouseOver="this.style.color='cornflowerblue' ; this.style.fontSize='18px'; this.style.fontWeight='bold';"  onMouseOut="this.style.color='#cornflowerblue'; this.style.fontSize='20px';this.style.fontWeight='bold';" style="text-decoration: none; color:cornflowerblue;"><p style="font-family: Arial, Helvetica, sans-serif; transition: 0.2s;"> HOME </p></a>
+      <a href="about.html"  onMouseOver="this.style.color='cornflowerblue' ; this.style.fontSize='18px'; this.style.fontWeight='bold';"  onMouseOut="this.style.color='#ffffff'; this.style.fontSize='16px';this.style.fontWeight='normal';" style="text-decoration: none; color: #ffffff;"><p style="font-family: Arial, Helvetica, sans-serif;transition: 0.2s;"> ABOUT US </p></a>
+      <a href="OUR SERVICES.html"  onMouseOver="this.style.color='cornflowerblue' ; this.style.fontSize='18px'; this.style.fontWeight='bold';"  onMouseOut="this.style.color='#ffffff'; this.style.fontSize='16px';this.style.fontWeight='normal';" style="text-decoration: none; color: #ffffff;"><p style="font-family: Arial, Helvetica, sans-serif;transition: 0.2s;"> OUR SERVICES </p></a>
+      <a href="contactus.html"  onMouseOver="this.style.color='cornflowerblue' ; this.style.fontSize='18px'; this.style.fontWeight='bold';"  onMouseOut="this.style.color='#ffffff'; this.style.fontSize='16px';this.style.fontWeight='normal';" style="text-decoration: none; color: #ffffff;"><p style="font-family: Arial, Helvetica, sans-serif;transition: 0.2s; "> CONTACT US</p> </a>
+    </div>
+  </div>
+  <div id="carouselExampleDark" class="carousel carousel-white slide" style="position: relative; height: 800px;">
+    <div class=" divvvv">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active btns"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button class="btns" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button class="btns" type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner" style="position: absolute; top:0; height: 800px;">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="D:\mohamed tawfik\depi project\assets\imgs\immgg.jpg" class="d-block w-100" alt="1sora" style="height: 800px;">
+        <div class="carousel-caption  row">
+          <div class="col-lg-7 col-sm-9 row " style="padding-top:30%; box-sizing: border-box;">
+            <div style="height:60%;"></div>
+            <div >
+            <h2 style="color:cornflowerblue;float: left; text-align: left; font-weight: 700;">WE HAVE A SOLID BACKGROUND</h2>
+          <h1 style="color: #ffffff; float: left;text-align: left; font-size: 44px; font-weight: 700; letter-spacing: 2.5px;">MARKET ANALYSIS <br> & STATISTICS</h1>
+          <h6 style="color: #ffffff;float: left;text-align: left;">Vivamus ut tellus mi. Nulla nec cursus elit, id vulputate mi. Sed nec cursus augue. Phasellus lacinia ac sapien vitae dapibus. Mauris ut dapibus velit, cras interdum nisl ac urna tempor mollis.</h6>
+           </div>
+            <a href="READ.jpg" target=”_blank” class="col-lg-4 col-md-5  col-sm-6 btncrl" style="font-weight:bold;">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="D:\mohamed tawfik\depi project\assets\imgs\immmg.jpg" class="d-block w-100" alt="2sora" style="height: 800px;">
+        <div class="carousel-caption  row">
+          <div class="col-lg-6 col-sm-8 row " style="padding-top:30%; box-sizing: border-box;">
+            <div style="height:60%;"></div>
+            <div >
+              <h2 style="color:cornflowerblue;float: left; text-align: left; font-weight: 700;">WE ARE READY TO HELP YOU</h2>
+          <h1 style="color: #ffffff; float: left;text-align: left; font-size: 44px; font-weight: 700; letter-spacing: 2.5px;">FINANCIAL ANALYSIS <br>& CONSULTING</h1>
+          
+          <h6 style="color: #ffffff;float: left;text-align: left;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aut cupiditate explicabo qui modi maiores repellat veritatis perferendis sed beatae.</h6>
+           </div>
+           <a href="READ.jpg" target=”_blank” class="col-lg-4 col-md-5  col-sm-6 btncrl"style="font-weight:bold;">CONTACT US</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="D:\mohamed tawfik\depi project\assets\imgs\metabg.jpeg" class="d-block w-100" alt="3sora" style="height: 800px;">
+        <div class="carousel-caption  row">
+          <div class="col-lg-6 col-sm-8 row " style="padding-top:30%; box-sizing: border-box;">
+            <div style="height:60%;"></div>
+            <div >
+              <h2 style="color:cornflowerblue;float: left; text-align: left; font-weight: 700;">WE ARE HERE TO SUPPORT YOU</h2>
+          <h1 style="color: #ffffff; float: left;text-align: left; font-size: 44px; font-weight: 700; letter-spacing: 2.5px;">ACCOUNTING <br>& MANAGEMENT</h1>
+          
+          <h6 style="color: #ffffff;float: left;text-align: left;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, repellendus at. Fugit distinctio sit vitae illum in ex sequi veniam.</h6>
+           </div>
+           <a href="READ.jpg" target=”_blank” class="col-lg-4 col-md-5  col-sm-6 btncrl"style="font-weight:bold;">OUR SERVICES</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+
+
+  <div class="metabg row justify-content-center" style=" row-gap: 50px;">
+    <div style=" text-align: center;">
+      <div style="position: relative; text-align: center;">
+        <h1
+          style=" text-align: center; color: rgb(255, 255, 255); font-family: Arial, Helvetica, sans-serif; width: auto; ">
+          Our Work</h1>
+       
+      </div>
+      <div class="col-12 row justify-content-center">
+        <p style="width: 80%;  color: #ffffff;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, ipsam.
+          ipsum dolor sit amet consectetur adipisicing elit. Facere necessitatibus exercitationem, quia neque, sint
+          ducimus quo nobis quae quibusdam consectetur iusto animi incidunt. Sit enim ea, vero sequi consectetur cumque?
+        </p>
+      </div>
+    </div>
+    <div class="col-10 row justify-content-between" style="row-gap: 50px; ">
+      <div class=" col-lg-3 col-md-5 col-sm-12 crd">
+        <div class="col-12" style="height: 30px;"> </div>
+        <i class="fa-solid fa-cloud-arrow-up fa-fade  " style="color: #ffffff; align-self: center; "></i>
+        <br>
+        <h5 class="col-12" style="color: #ffffff;">online marketing</h5>
+        <div class="crd2">
+          <h4 style="color: cornflowerblue;">Lorem,ipsum.</h4>
+          <p style="color: cornflowerblue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, aut?</p>
+          <button
+            style="border:1px solid cornflowerblue; border-radius: 30px; background-color:cornflowerblue; height: 30px;">
+            <p style="color: rgb(255, 255, 255) ;">read more</p>
+          </button>
+        </div>
+
+
+      </div>
+
+      <div class="col-lg-4 col-md-5 col-sm-12 crd ">
+        <div class="col-12" style="height: 30px;"></div>
+        <i class="fa-solid fa-laptop-code fa-fade" style="color: #ffffff;"></i>
+        <br>
+        <h5 class="col-12" style="color: #ffffff;">web design</h5>
+
+        <div class="crd2">
+          <h4 style="color: cornflowerblue;">Lorem,ipsum.</h4>
+          <p style="color: cornflowerblue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, aut?</p>
+          <button
+            style="border:1px solid cornflowerblue; border-radius: 30px; background-color:cornflowerblue; height: 30px;">
+            <p style="color: rgb(255, 255, 255) ;">read more</p>
+          </button>
+        </div>
+
+      </div>
+
+      <div class="col-lg-3 col-md-12 col-sm-12 crd ">
+        <div class="col-12" style="height: 30px;"></div>
+        <i class="fa-solid fa-pencil fa-fade" style="color: #ffffff;"></i>
+        <br>
+        <h5 class="col-12" style="color: #ffffff;">graphic design</h5>
+
+        <div class="crd2">
+          <h4 style="color: cornflowerblue;">Lorem,ipsum.</h4>
+          <p style="color: cornflowerblue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, aut?</p>
+          <button
+            style="border:1px solid cornflowerblue; border-radius: 30px; background-color:cornflowerblue; height: 30px;">
+            <p style="color: rgb(255, 255, 255) ;">read more</p>
+          </button>
+        </div>
+
+      </div>
+
+
+
+      <div class="col-lg-4 col-md-5 col-sm-12 crd ">
+        <div class="col-12" style="height: 30px;"></div>
+        <i class="fa-solid fa-desktop fa-fade" style="color: #ffffff;"></i>
+        <br>
+        <h5 class="col-12" style="color: #ffffff;">web devlopment</h5>
+
+        <div class="crd2">
+          <h4 style="color: cornflowerblue;">Lorem,ipsum.</h4>
+          <p style="color: cornflowerblue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, aut?</p>
+          <button
+            style="border:1px solid cornflowerblue; border-radius: 30px; background-color:cornflowerblue; height: 30px;">
+            <p style="color: rgb(255, 255, 255) ;">read more</p>
+          </button>
+        </div>
+
+      </div>
+
+      <div class=" col-lg-3 col-md-5 col-sm-12 crd">
+        <div class="col-12" style="height: 30px;"></div>
+        <i class="fa-solid fa-network-wired fa-fade" style="color: #ffffff;"></i>
+        <br>
+        <h5 class="col-12" style="color: #ffffff;">networking</h5>
+
+        <div class="crd2">
+          <h4 style="color: cornflowerblue;">Lorem,ipsum.</h4>
+          <p style="color: cornflowerblue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, aut?</p>
+          <button
+            style="border:1px solid cornflowerblue; border-radius: 30px; background-color:cornflowerblue; height: 30px;">
+            <p style="color: rgb(255, 255, 255) ;">read more</p>
+          </button>
+        </div>
+
+      </div>
+
+      <div class="col-lg-4 col-md-12 col-sm-12 crd ">
+        <div class="col-12" style="height: 30px;"></div>
+        <i class="fa-brands fa-wordpress fa-fade" style="color: #ffffff;"></i>
+        <br>
+        <h5 class="col-12" style="color: #ffffff;">wordpress theme</h5>
+
+        <div class="crd2" style="padding-top: 5px;">
+          <h4 style="color: cornflowerblue;">Lorem,ipsum.</h4>
+          <p style="color: cornflowerblue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, aut?</p>
+          <button
+            style="border:1px solid cornflowerblue; border-radius: 30px; background-color:cornflowerblue; height: 30px;">
+            <p style="color: rgb(255, 255, 255) ;">read more</p>
+          </button>
+        </div>
+
+      </div>
+
+    </div>
+
+
+  </div>
+
+  <div class="col-12 row justify-content-between"
+    style="padding-left: 100px; padding-right: 100px; position: relative;">
+
+    <div style="position: relative; text-align: center; padding-top: 20px;">
+      <h1 style=" text-align: center; color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; width: auto; ">
+        our projects</h1>
+     
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In molestias saepe quaerat rem sunt. Placeat cum amet
+        obcaecati inventore, ut maiores? Et magnam possimus nostrum, fugit quo rem quibusdam distinctio nobis
+        repellendus aliquam. Optio, fuga alias commodi eius quo dolores similique deserunt provident cumque, magnam
+        incidunt ducimus aliquid, accusamus eligendi!</p>
+    </div>
+    
+    <div style="width: 100%; height: 40px;"></div>
+    <div class="col-lg-4 col-md-5 col-sm-11">
+      <div class="card98" style="background-image: url('D:/mohamed tawfik/depi project/assets/imgs/1.jpg');">
+        <div class="smallcard98">
+          <p style="color: aliceblue;  position: absolute; bottom: 45%; left: 8%; ">project title not the same old
+            titlte</p>
+          <h2 style="color: aliceblue ; position: absolute; top: 35%; left: 8%; "> project 1 </h2>
+          <a href=""><i class="fa-solid fa-plus" style="color: #fffbfb; position: absolute; top: 50%; right: 8%;"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-5 col-sm-11">
+      <div class="card98" style="background-image: url('D:/mohamed tawfik/depi project/assets/imgs/2.jpg');">
+        <div class="smallcard98">
+          <p style="color: aliceblue;  position: absolute; bottom: 45%; left: 8%; ">project title not the same old
+            titlte</p>
+          <h2 style="color: aliceblue ; position: absolute; top: 35%; left: 8%; "> project 2 </h2>
+          <a href=""><i class="fa-solid fa-plus" style="color: #fffbfb; position: absolute; top: 50%; right: 8%;"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-5 col-sm-11">
+      <div class="card98" style="background-image: url('D:/mohamed tawfik/depi project/assets/imgs/3.jpg');">
+        <div class="smallcard98">
+          <p style="color: aliceblue;  position: absolute; bottom: 45%; left: 8%; ">project title not the same old
+            titlte</p>
+          <h2 style="color: aliceblue ; position: absolute; top: 35%; left: 8%; "> project 3 </h2>
+          <a href=""><i class="fa-solid fa-plus" style="color: #fffbfb; position: absolute; top: 50%; right: 8%;"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-5 col-sm-11">
+      <div class="card98" style="background-image: url('D:/mohamed tawfik/depi project/assets/imgs/4.jpg');">
+        <div class="smallcard98">
+          <p style="color: aliceblue;  position: absolute; bottom: 45%; left: 8%; ">project title not the same old
+            titlte</p>
+          <h2 style="color: aliceblue ; position: absolute; top: 35%; left: 8%; "> project 4 </h2>
+          <a href=""><i class="fa-solid fa-plus" style="color: #fffbfb; position: absolute; top: 50%; right: 8%;"></i></a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-lg-4 col-md-5 col-sm-11">
+      <div class="card98" style="background-image: url('D:/mohamed tawfik/depi project/assets/imgs/5.jpg');">
+        <div class="smallcard98">
+          <p style="color: aliceblue;  position: absolute; bottom: 45%; left: 8%; ">project title not the same old
+            titlte</p>
+          <h2 style="color: aliceblue ; position: absolute; top: 35%; left: 8%; "> project 5 </h2>
+          <a href=""><i class="fa-solid fa-plus" style="color: #fffbfb; position: absolute; top: 50%; right: 8%;"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-5 col-sm-11">
+      <div class="card98" style="background-image: url('D:/mohamed tawfik/depi project/assets/imgs/6.jpg');">
+        <div class="smallcard98">
+          <p style="color: aliceblue;  position: absolute; bottom: 45%; left: 8%; ">project title not the same old
+            titlte</p>
+          <h2 style="color: aliceblue ; position: absolute; top: 35%; left: 8%; "> project 6 </h2>
+          <a href=""><i class="fa-solid fa-plus" style="color: #fffbfb; position: absolute; top: 50%; right: 8%;"></i></a>
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </div>
+
+
+
+
+<div style="width: 100%; height: 160px;"></div>
+<div style="position: relative; text-align: center; padding-top: 20px;">
+  <h1 style=" text-align: center; color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; width: auto; "> latest blog</h1>
+
+</div>
+
+
+
+
+<div class="col-12 row justify-content-center" style=" box-sizing: border-box; padding-left: 80px; padding-right: 80px; " >
+  <div class="col-lg-4 col-md-10 col-sm-10 elkpeer" >
+    <div class="col-12 border-top border-end border-start " style="height: 35%; overflow: hidden; border-top-left-radius:20px ; border-top-right-radius: 20px; ">
+      <div class="col-12 elsora" style="background-image: url('D:/mohamed tawfik/depi project/assets/imgs/blog1.jpg') !important;"></div>
+    </div>
+    <div class="col-12 d-flex justify-content-between border-bottom border-end border-start " style="height: 65%; border-bottom-left-radius:20px ;  border-bottom-right-radius: 20px;">
+      <div class=" elgnp col-1 d-flex flex-column justify-content-between " >
+        <i class="fa-brands fa-facebook" style="color: #ffffff; margin: auto;"></i>
+        <i class="fa-brands fa-twitter" style="color: #ffffff; margin: auto;"></i>
+        <i class="fa-brands fa-linkedin" style="color: #ffffff;margin: auto;"></i>
+        <i class="fa-brands fa-instagram" style="color: #ffffff;margin: auto;"></i>
+        <i class="fa-brands fa-google-plus-g" style="color: #ffffff;margin: auto;"></i>
+      </div>
+      <div class="col-11" style="height: 100%; box-sizing: border-box; padding-left: 10px; padding-right: 10px; padding-top: 10px;">
+        <h5>four ways to cheer up and plan your self up on the blue ...! </h5>
+        <p style="color: darkgray;"><span><i class="fa-regular fa-user"style="color: darkgray;"></i></span> by mohamed tawfik <span><i class="fa-regular fa-calendar-days"style="color: darkgray;"></i></span> 19 jul 2024</p>
+          <hr class="elstr">
+          <p style="color: darkgray;"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil culpa, rerum et nam nobis impedit delectus voluptas pariatur. Quos, architecto.</p>
+          <h6>readmore &nbsp <span><i class="fa-solid fa-arrow-right" style="color: #000000;"></i></span></h6>
+        </div>
+
+    </div>
+  </div>  
+
+  <div class="col-lg-4 col-md-10 col-sm-10 elkpeer" >
+    <div class="col-12 border-top border-end border-start " style="height: 35%; overflow: hidden; border-top-left-radius:20px ; border-top-right-radius: 20px; ">
+      <div class="col-12 elsora" style="background-image: url('D:/mohamed tawfik/depi project/assets/imgs/blog2.jpg') !important;"></div>
+    </div>
+    <div class="col-12 d-flex justify-content-between border-bottom border-end border-start " style="height: 65%; border-bottom-left-radius:20px ;  border-bottom-right-radius: 20px;">
+      <div class=" elgnp col-1 d-flex flex-column justify-content-between " >
+        <i class="fa-brands fa-facebook" style="color: #ffffff; margin: auto;"></i>
+        <i class="fa-brands fa-twitter" style="color: #ffffff; margin: auto;"></i>
+        <i class="fa-brands fa-linkedin" style="color: #ffffff;margin: auto;"></i>
+        <i class="fa-brands fa-instagram" style="color: #ffffff;margin: auto;"></i>
+        <i class="fa-brands fa-google-plus-g" style="color: #ffffff;margin: auto;"></i>
+      </div>
+      <div class="col-11" style="height: 100%; box-sizing: border-box; padding-left: 10px; padding-right: 10px; padding-top: 10px;">
+        <h5>four ways to cheer up and plan your self up on the blue ...! </h5>
+        <p style="color: darkgray;"><span><i class="fa-regular fa-user"style="color: darkgray;"></i></span> by mohamed tawfik <span><i class="fa-regular fa-calendar-days"style="color: darkgray;"></i></span> 19 jul 2024</p>
+          <hr class="elstr">
+          <p style="color: darkgray;"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil culpa, rerum et nam nobis impedit delectus voluptas pariatur. Quos, architecto.</p>
+          <h6>readmore &nbsp <span><i class="fa-solid fa-arrow-right" style="color: #000000;"></i></span></h6>
+        </div>
+
+    </div>
+  </div>  
+
+  <div class="col-lg-4 col-md-10 col-sm-10 elkpeer" >
+    <div class="col-12 border-top border-end border-start " style="height: 35%; overflow: hidden; border-top-left-radius:20px ; border-top-right-radius: 20px; ">
+      <div class="col-12 elsora" style="background-image: url('D:/mohamed tawfik/depi project/assets/imgs/blog3.jpg') !important;"></div>
+    </div>
+    <div class="col-12 d-flex justify-content-between border-bottom border-end border-start " style="height: 65%; border-bottom-left-radius:20px ;  border-bottom-right-radius: 20px;">
+      <div class=" elgnp col-1 d-flex flex-column justify-content-between " >
+        <i class="fa-brands fa-facebook" style="color: #ffffff; margin: auto;"></i>
+        <i class="fa-brands fa-twitter" style="color: #ffffff; margin: auto;"></i>
+        <i class="fa-brands fa-linkedin" style="color: #ffffff;margin: auto;"></i>
+        <i class="fa-brands fa-instagram" style="color: #ffffff;margin: auto;"></i>
+        <i class="fa-brands fa-google-plus-g" style="color: #ffffff;margin: auto;"></i>
+      </div>
+      <div class="col-11" style="height: 100%; box-sizing: border-box; padding-left: 10px; padding-right: 10px; padding-top: 10px;">
+        <h5>four ways to cheer up and plan your self up on the blue ...! </h5>
+        <p style="color: darkgray;"><span><i class="fa-regular fa-user"style="color: darkgray;"></i></span> by mohamed tawfik <span><i class="fa-regular fa-calendar-days"style="color: darkgray;"></i></span> 19 jul 2024</p>
+          <hr class="elstr">
+          <p style="color: darkgray;"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil culpa, rerum et nam nobis impedit delectus voluptas pariatur. Quos, architecto.</p>
+          <h6>readmore &nbsp <span><i class="fa-solid fa-arrow-right" style="color: #000000;"></i></span></h6>
+        </div>
+
+    </div>
+  </div>  
+ 
+</div>
+
+<div class="row justify-content-center" >
+  <div style="position: relative; text-align: center; padding-top: 20px;">
+    
+    <h1 style=" text-align: center; color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; width: auto; "> our
+      clients</h1>
+    
+  </div>
+<div class="col-10 row justify-content-center">
+  <div class="col-4"><img src="D:\mohamed tawfik\depi project\assets\imgs\projects.png" alt="sora" style="width: 100%; size: 100% 100%; "></div>
+  <div class="col-8 row justify-content-between" style="row-gap: 10px; margin: auto;">
+    <div class="col-4" style="box-sizing: border-box; padding: 5px; "><img src="D:\mohamed tawfik\depi project\assets\imgs\1p.jpg" alt="sora" style="width: 100%; size: 100% 100%; border-radius: 15px;"></div>
+    <div class="col-4" style="box-sizing: border-box; padding: 5px;"><img src="D:\mohamed tawfik\depi project\assets\imgs\2p.jpg" alt="sora" style="width: 100%; size: 100% 100%; border-radius: 15px;"></div>
+    <div class="col-4" style="box-sizing: border-box; padding: 5px;"><img src="D:\mohamed tawfik\depi project\assets\imgs\3p.jpg" alt="sora" style="width: 100%; size: 100% 100%; border-radius: 15px;"></div>
+    <div class="col-4" style="box-sizing: border-box; padding: 5px;"><img src="D:\mohamed tawfik\depi project\assets\imgs\4p.jpg" alt="sora" style="width: 100%; size: 100% 100%; border-radius: 15px;"></div>
+    <div class="col-4" style="box-sizing: border-box; padding: 5px;"><img src="D:\mohamed tawfik\depi project\assets\imgs\5p.jpg" alt="sora" style="width: 100%; size: 100% 100%; border-radius: 15px;"></div>
+    <div class="col-4" style="box-sizing: border-box; padding: 5px;"><img src="D:\mohamed tawfik\depi project\assets\imgs\6p.jpg" alt="sora" style="width: 100%; size: 100% 100%; border-radius: 15px;"></div>
+  </div>
+</div>
+</div>
+
+
+
+    <script>
+      const scriptURL =                       
+      "https://script.google.com/macros/s/AKfycbywk3d_0ZnGBGFXEyxCglxTQ_TuSeAv9CnacQ1YZ11MUEeH7mFIkXHhnMpKTB2Lwm4I/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        var formData = new FormData(form);
+       
+        fetch(scriptURL, { method: "POST", body: formData })
+          .then((response) => {
+            swal("Done", "Submitted Successfully.", "success");
+          })
+          .catch((error) => {
+            swal("Error", "Something went wrong. please try again!", "error");
+          });
+      });
+    </script>
+
+<footer class="text-white text-center text-lg-start " style="background-color: cornflowerblue;">
+  
+  <div class="container p-4">
+    
+    <div class="row mt-4">
+
+      <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">About company</h5>
+
+        <p>
+          At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+          voluptatum deleniti atque corrupti.
+        </p>
+
+        <p>
+          Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas
+          molestias.
+        </p>
+
+       
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4 pb-1">Search something</h5>
+
+        <div class="form-outline form-white mb-4">
+          <input type="text" id="formControlLg" class="form-control form-control-lg" />
+          <label class="form-label" for="formControlLg">Search</label>
+        </div>
+
+        <ul class="fa-ul" style="margin-left: 1.65em;">
+          <li class="mb-3">
+            <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">15street st,region,Governorate</span>
+          </li>
+          <li class="mb-3">
+            <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">MHCOMPANY@gmail.com</span>
+          </li>
+          <li class="mb-3">
+            <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+ 20 999 9999 999</span>
+          </li>
+          <li class="mb-3">
+            <span class="fa-li"><i class="fas fa-print"></i></span><span class="ms-2">+ 20 999 9999 999</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">social media</h5>
+          <!-- Facebook -->
+          <a type="button" href="https://www.facebook.com/" class="btn btn-floating btn-primary btn-lg"><i class="fab fa-facebook-f"></i></a>
+          <!-- Dribbble -->
+          <a type="button" href="https://dribbble.com/" class="btn btn-floating btn-primary btn-lg"><i class="fab fa-dribbble"></i></a>
+          <!-- Twitter -->
+          <a type="button" href="https://x.com/" class="btn btn-floating btn-primary btn-lg"><i class="fab fa-twitter"></i></a>
+          <!-- Google + -->
+          <a type="button" href="https://one.google.com/" class="btn btn-floating btn-primary btn-lg"><i class="fab fa-google-plus-g"></i></a>
+          <!-- Linkedin -->
+        </div>
+
+        
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2024 Copyright:
+    <a class="text-white" href="indx.html">MH COMPANY</a>
+  </div>
+</footer>
+
+
+<script src="boja.js"></script>
+</body>
+
+</html>
